@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Chat Assistant</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <h1>🤖 AI Chat Assistant</h1>
+      <p>Ask me anything — powered by transformers + Wikipedia</p>
+    </header>
+
+    <main id="chatbox" class="chatbox">
+      <div class="message bot intro">Hi there! 👋 I'm your AI assistant. Ask me anything!</div>
+    </main>
+
+    <footer>
+      <input type="text" id="userInput" placeholder="Type your question..." autocomplete="off" />
+      <button onclick="sendMessage()">Send</button>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
